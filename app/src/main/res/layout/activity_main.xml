@@ -37,23 +37,23 @@
         android:layout_height="wrap_content"
         android:src="@drawable/turtle" />
 
-    <ImageView
-        android:id="@+id/leonardo_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/leonardo"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/leonardo_image"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/leonardo"/>-->
 
-    <ImageView
-        android:id="@+id/donatello_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/donatello"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/donatello_image"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/donatello"/>-->
 
-    <ImageView
-        android:id="@+id/raphael_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/raphael"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/raphael_image"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/raphael"/>-->
 
 
 
