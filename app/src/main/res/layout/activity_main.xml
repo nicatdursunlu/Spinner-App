@@ -4,10 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/turtle_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/turtles"
+        android:prompt="@string/choose_turtle"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp" />
 
 
 
-    
+    <ImageView
+        android:id="@+id/turtle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/turtle" />
+
+    <ImageView
+        android:id="@+id/leonardo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leonardo"/>
+
+    <ImageView
+        android:id="@+id/donatello_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/donatello"/>
+
+    <ImageView
+        android:id="@+id/raphael_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/raphael"/>
+
+
+
 
 </LinearLayout>

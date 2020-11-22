@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Spinner-App</string>
+    <string name="choose_turtle">Choose a turtle: </string>
+    <string-array name="turtles">
+        <item>Turtle</item>
+        <item>Leonardo</item>
+        <item>Donatello</item>
+        <item>Raphael</item>
+    </string-array>
 </resources>
