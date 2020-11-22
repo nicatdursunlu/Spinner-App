@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 result.setText("You select " + turtle);
 
                 ImageView image = findViewById(R.id.turtle_image);
-//                image.setImageResource(R.drawable.raphael);
-
                 if(position == 0) {
                     image.setImageResource(R.drawable.turtle);
                 }
@@ -41,10 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 else if(position == 3) {
                     image.setImageResource(R.drawable.raphael);
                 }
-
                 Toast.makeText(parent.getContext(), "You select " + turtle, LENGTH_SHORT).show();
             }
-
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {

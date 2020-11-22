@@ -7,7 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-
     <Spinner
         android:id="@+id/turtle_spinner"
         android:layout_width="match_parent"
@@ -27,9 +26,17 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textStyle="bold"/>
 
 
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:inputType="numberPassword"
+       android:textSize="25dp"
+       android:hint="E-mail" />
 
     <ImageView
         android:id="@+id/turtle_image"
@@ -37,26 +44,5 @@
         android:layout_height="wrap_content"
         android:src="@drawable/turtle"
         android:layout_margin="20dp" />
-
-<!--    <ImageView-->
-<!--        android:id="@+id/leonardo_image"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/leonardo"/>-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/donatello_image"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/donatello"/>-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/raphael_image"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/raphael"/>-->
-
-
-
 
 </LinearLayout>
